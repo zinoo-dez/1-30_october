@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>form</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name</label> <br />
+      <input
+        type="text"
+        id="name"
+        required
+        placeholder="Type your name"
+        minlength="4"
+        maxlength="20"
+        autocomplete="off"
+      />
+      <br />
+      <label for="email">Email</label> <br />
+      <input type="email" id="email" required placeholder="****@gmail.com" />
+      <br />
+      <label for="address">Address</label> <br />
+      <textarea name="" id="address"></textarea> <br />
+      <label for="photo">Photo</label>
+      <input type="file" name="" id="photo" accept="image/*" /> <br />
+      <label for="age">Age</label> <br />
+      <input type="number" min="16" max="70" />
+      <br />
+      <label for="phone">Phone</label> <br />
+      <input type="tel" name="" id="phone" placeholder="09******" />
+      <br />
+      <label for="dob">Date of Birth</label> <br />
+      <input type="date" name="" id="dob" /> <br />
+      <label for="password">Password</label> <br />
+      <input
+        type="password"
+        name=""
+        id=""
+        placeholder="*********"
+        minlength="6"
+        maxlength="30"
+      />
+      <hr />
+      <h3>Select Your Gender</h3>
+      <input type="radio" name="gender" id="" value="male" />Male
+      <input type="radio" name="gender" id="" value="female" />female
+      <br />
+      <h3>Select Your Hobbies</h3>
+      <input type="checkbox" name="" id="" value="reading" />Reading
+      <input type="checkbox" name="" id="" value="gaming" />gaming
+      <input type="checkbox" name="" id="" value="swimming" />swimming
+      <input type="checkbox" name="" id="" value="running" />running
+      <br />
+      <h3>Select Your Country</h3>
+      <select name="country" id="">
+        <option value="myanmar">myanmar</option>
+        <option value="thai">thai</option>
+        <option value="india">india</option>
+        <option value="frence">frence</option>
+        <option value="uk">uk</option>
+        <option value="usa">usa</option>
+        <option value="laos">laos</option>
+        <option value="china">china</option>
+      </select>
+      <br /><br />
+
+      <input type="submit" value="register" />
+    </form>
+  </body>
+</html>
