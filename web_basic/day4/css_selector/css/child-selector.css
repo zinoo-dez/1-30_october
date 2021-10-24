@@ -1,0 +1,8 @@
+.main > p {
+  background: red;
+}
+.main > a {
+  background: #000;
+  display: block;
+  color: #fff;
+}

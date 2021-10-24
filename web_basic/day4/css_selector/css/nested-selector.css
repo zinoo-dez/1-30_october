@@ -1,0 +1,14 @@
+.main p {
+  background: red;
+}
+.app p {
+  background: green;
+}
+.sub a {
+  background: #000;
+  display: block;
+}
+.app a {
+  background: blue;
+  color: #fff;
+}
