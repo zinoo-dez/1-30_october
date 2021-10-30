@@ -1,0 +1,43 @@
+/* h1 {
+  transition: 0.5s;
+}
+h1:hover,
+h1:active {
+  color: red;
+  background: #000;
+  width: 200px;
+}
+a:visited {
+  color: red;
+}
+input[type="text"]:active {
+  background: red;
+}
+input[type="email"]:focus {
+  background: rgb(16, 182, 85);
+} */
+/*
+.main a:first-child {
+  background: red;
+}
+.main input:last-child {
+  background: red;
+}
+.main p:nth-child(4) {
+  background: red;
+}*/
+h2 {
+  width: 300px;
+}
+h2::before {
+  content: "Mr";
+  /* height: 10px; */
+  background: rgb(233, 39, 39);
+  display: block;
+}
+h2::after {
+  content: "Smith";
+  /* height: 10px; */
+  background: rgb(233, 39, 39);
+  display: block;
+}

@@ -1,0 +1,16 @@
+a {
+  display: inline-block;
+  width: 500px;
+  height: 40px;
+  background: rgb(202, 113, 113);
+}
+p {
+  display: block;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  background: red;
+}
