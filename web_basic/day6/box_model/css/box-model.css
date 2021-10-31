@@ -1,0 +1,39 @@
+.main {
+  width: 1000px;
+  /* background: #000; */
+}
+
+.header {
+  /* width: 800px; */
+  height: 100px;
+  background: red;
+}
+.sidebar {
+  width: 200px;
+  height: 400px;
+  background: rgb(153, 66, 66);
+  float: left;
+}
+.sidebar2 {
+  width: 200px;
+  height: 400px;
+  background: rgb(9, 12, 187);
+  float: left;
+}
+.body {
+  width: 500px;
+  height: 300px;
+  background: rgb(43, 146, 34);
+  float: left;
+  font-size: 40px;
+  color: #fff;
+  padding: 20px;
+  border: 10px solid #ddd;
+  margin: 20px;
+}
+.footer {
+  /* width: 800px; */
+  height: 60px;
+  background: rgb(80, 29, 29);
+  clear: both;
+}

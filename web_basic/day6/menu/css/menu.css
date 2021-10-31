@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.main > li {
+  float: left;
+  border-right: 2px solid white;
+}
+.main li {
+  width: 200px;
+  height: 60px;
+  background: red;
+  text-align: center;
+  line-height: 60px;
+}
+.main a {
+  font-size: 20px;
+  font-weight: bold;
+  color: wheat;
+  /* background: rgb(73, 42, 42); */
+  display: block;
+}
+.main a:hover {
+  background: rgb(134, 42, 42);
+}
+.sub_menu li {
+  border-top: 2px solid white;
+  display: none;
+}
+.main > li:hover .sub_menu li {
+  display: block;
+}
