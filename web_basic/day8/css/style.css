@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.87);
+}
+.box1,.box2,.box3,.box4{
+    background: rgba(255, 255, 255, 0);
+    padding: 20px;
+    /* margin-bottom: 100px; */
+    width: 50%;
+    margin: 100px auto;
+    color: rgb(214, 136, 136);
+}
+.box1{
+    box-shadow: 10px 10px 20px 10px rgb(154, 214, 12);
+}
+.box2{
+    box-shadow: 0 10px 20px 10px rgb(80, 192, 15);
+}
+.box3{
+    box-shadow: 10px 0px 20px 10px rgb(120, 177, 13);
+}
+.box4{
+    box-shadow: -10px -10px 20px 10px rgb(64, 180, 11);
+}
+.main {
+    width: 50%;
+    padding: 20px;
+    margin: 100px auto;
+    background: rgba(107, 99, 99, 0);
+    box-shadow: 0 0 20px 2px rgb(102, 197, 25), inset 0 0 20px 2px rgb(53, 218, 12);
+}

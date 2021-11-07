@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(243, 188, 188, 0.658);
+}
+header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(226, 155, 155, 0.267);
+    padding: 30px;
+    color: #fff;
+    font-size: 22px;
+
+}

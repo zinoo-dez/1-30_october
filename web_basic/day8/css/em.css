@@ -1,0 +1,12 @@
+*{
+    font-size: 20px;
+    /* rem is root size */
+}
+
+p{  
+    /* em is parent size */
+    font-size: 30px;
+    line-height: 1.5rem;
+    width: 40em;
+    background: red;
+}

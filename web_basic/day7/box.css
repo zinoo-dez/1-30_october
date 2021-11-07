@@ -1,0 +1,27 @@
+.box1,.box2{
+    width: 200px;
+    height: 200px;
+    color: #fff;
+}
+.box1{
+    background: red;
+    /* to-bottom left-right */
+    padding: 20px 40px; 
+    padding: 20px 40px 60px 80px;
+    /* to-bottom left-right */
+    margin: 20px 40px; 
+    margin: 20px 40px 60px 80px;
+    border-top: 20px solid green;
+    border-right: 40px solid rgb(170, 26, 170);
+    border-left: 30px solid rgb(14, 12, 126);
+    border-bottom: 50px solid rgb(219, 174, 27);
+}
+.box2{
+    background: blue;
+    padding-top: 40px;
+    margin-left: 200px;
+    border-radius:   50px 0;
+    border-radius:   0 50px;
+    border-radius: 10px 20px 30px 40px;
+    border-radius: 50%;
+}
