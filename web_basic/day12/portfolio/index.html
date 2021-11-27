@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- menu section start -->
+      <div class="main_menu">
+        <a href="home" class="logo__name">James</a>
+        <ul class="nav_links">
+          <a href=""> <i class="fa fa-home"></i> Home</a>
+          <a href="">About</a>
+          <a href="">Projects</a>
+          <a href="">Services</a>
+        </ul>
+        <a href="#" class="info_btn">Let's Talk</a>
+        <i class="fa fa-bars" id="bars"></i>
+      </div>
+      <!-- menu section end -->
+      <!-- header img section start -->
+      <div class="header_main_section">
+        <img
+          src="./img/irene-strong-v2aKnjMbP_k-unsplash.jpg"
+          alt=""
+          width="150"
+        />
+        <div class="header_content">
+          <h2>My name is James. <br />Digital Product Designer</h2>
+          <p>Head of design at Calvino</p>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="left_side">
+          <p>Design For</p>
+          <h3>Web & Mobile</h3>
+        </div>
+        <div class="center">
+          <p>Design For</p>
+          <h3>Web & Mobile</h3>
+        </div>
+        <div class="right_side">
+          <p>Design For</p>
+          <h3>Web & Mobile</h3>
+        </div>
+      </div>
+      <!-- header img section end -->
+    </header>
+    <section class="body">
+      <div class="experties">
+        <h2>My Experties</h2>
+        <div class="experties_main_box">
+          <div class="expert_sm">
+            <i class="fab fa-accusoft"></i>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              temporibus sunt error unde aut in voluptates nulla natus commodi
+              ut. Culpa nobis accusantium ullam voluptatibus qui sapiente
+              eligendi autem molestiae!
+            </p>
+            <a href="#" class="info_btn">see mores</a>
+          </div>
+          <div class="expert_sm">
+            <i class="fab fa-accusoft"></i>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              temporibus sunt error unde aut in voluptates nulla natus commodi
+              ut. Culpa nobis accusantium ullam voluptatibus qui sapiente
+              eligendi autem molestiae!
+            </p>
+            <a href="#" class="info_btn">see mores</a>
+          </div>
+          <div class="expert_sm">
+            <i class="fab fa-accusoft"></i>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              temporibus sunt error unde aut in voluptates nulla natus commodi
+              ut. Culpa nobis accusantium ullam voluptatibus qui sapiente
+              eligendi autem molestiae!
+            </p>
+            <a href="#" class="info_btn">see mores</a>
+          </div>
+          <div class="expert_sm">
+            <i class="fab fa-accusoft"></i>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              temporibus sunt error unde aut in voluptates nulla natus commodi
+              ut. Culpa nobis accusantium ullam voluptatibus qui sapiente
+              eligendi autem molestiae!
+            </p>
+            <a href="#" class="info_btn">see mores</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer></footer>
+
+    <script>
+      const bars = document.querySelector("#bars");
+      const nav_links = document.querySelector(".nav_links");
+      bars.onclick = () => {
+        nav_links.classList.toggle("see");
+        bars.classList.toggle("fa-times");
+      };
+      window.onscroll = () => {
+        nav_links.classList.remove("see");
+        bars.classList.remove("fa-times");
+      };
+    </script>
+  </body>
+</html>
