@@ -12,8 +12,9 @@ header {
   background: #f48e62;
 }
 .body {
-  height: 1000px;
+  height: auto;
   background: rgba(216, 41, 10, 0.733);
+  padding: 0 50px;
 }
 .main_menu {
   width: 100%;
@@ -117,7 +118,8 @@ header {
 }
 .experties {
   width: 100%;
-  padding: 50px;
+  padding-top: 20px;
+  /* padding: 50px; */
   /* height: 400px; */
   /* background: rgba(255, 166, 0, 0.479); */
 }
@@ -147,6 +149,63 @@ header {
   margin-bottom: 20px;
 }
 /* experties section end */
+/* my work section start */
+.my_work {
+  width: 100%;
+  padding: 30px 0;
+  /* height: 500px; */
+  /* background: #000; */
+}
+.my_work > h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;
+}
+.work_main_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work_main_box div {
+  flex: 1 1 27rem;
+  /* padding: 20px; */
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  background: rgb(245, 225, 225);
+  margin: 15px 20px;
+  /* box-shadow: 0 0 10px #fff; */
+  border-radius: 20px;
+}
+.sm_work_box img,
+.sm_work_box .context_box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.context_box {
+  padding: 10px 20px;
+}
+.context_box h3,
+.context_box p {
+  color: rgb(104, 94, 94);
+  padding: 10px;
+}
+.sm_work_box img {
+  transform-origin: left;
+  transition: 0.7s;
+  transform: scale(0);
+  object-fit: cover;
+  object-position: center;
+}
+.sm_work_box:hover img {
+  transform: scale(1);
+}
+.sm_work_box:hover .context_box {
+  z-index: -1;
+}
+/* my work section end */
 /* ***************************************************************************************************************************************************************************media query */
 /* mobile size */
 @media (max-width: 600px) {
