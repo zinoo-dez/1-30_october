@@ -1,0 +1,8 @@
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.mycss {
+  background: rgba(12, 14, 153, 0.411) !important;
+}
